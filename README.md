@@ -4,21 +4,21 @@ Inverly is a **stock market ETF comparison** web application that lets users tra
 
 ## Features
 
-- **User authentication & management** via Devise (sign up, log in/out, password recovery). :contentReference[oaicite:1]{index=1}  
-- **ETF catalog**: search for ETFs by ticker, view details, and add to your personal list. :contentReference[oaicite:2]{index=2}  
-- **Favorites**: mark your most-watched ETFs for quick access. :contentReference[oaicite:3]{index=3}  
-- **Investment tracking**: record contributions and holdings per ETF, with automatic grouping by month. :contentReference[oaicite:4]{index=4}  
-- **Interactive charts** powered by Chartkick & Groupdate for historical performance and contribution trends. :contentReference[oaicite:5]{index=5}  
-- **Responsive UI** styled with Bootstrap 5 and Font Awesome for seamless desktop & mobile experience. :contentReference[oaicite:6]{index=6}
+- **User authentication & management** via Devise (sign up, log in/out).  
+- **ETF catalog**: search for ETFs by ticker, view details, and add to your personal list.
+- **Favorites**: mark your most-watched ETFs for quick access.  
+- **Investment tracking**: record contributions and holdings per ETF, with automatic grouping by month. 
+- **Interactive charts** powered by Chartkick & Groupdate for historical performance and contribution trends.  
+- **Responsive UI** styled with Bootstrap 5 and Font Awesome for seamless desktop & mobile experience.
 
 ## Tech Stack
 
-- **Ruby 3.3.5** & **Rails ~> 7.1.5** :contentReference[oaicite:7]{index=7}  
+- **Ruby 3.3.5** & **Rails ~> 7.1.5**   
 - **PostgreSQL** as the database  
-- **Hotwire** (Turbo & Stimulus) for fast, SPA-like navigation :contentReference[oaicite:8]{index=8}  
+- **Hotwire** (Turbo & Stimulus) for fast, SPA-like navigation   
 - **Puma** web server  
-- **Devise** for authentication, **Simple Form** for forms :contentReference[oaicite:9]{index=9}  
-- **Chartkick**, **Groupdate** & **Faker** for charting and seeding demo data :contentReference[oaicite:10]{index=10}  
+- **Devise** for authentication, **Simple Form** for forms   
+- **Chartkick**, **Groupdate** & **Faker** for charting and seeding demo data   
 - **Docker** support via provided Dockerfile
 
 ## Installation
